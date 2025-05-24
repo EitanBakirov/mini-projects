@@ -1,0 +1,63 @@
+{
+  "2212.14674v1": {
+    "title": "A Comprehensive Gold Standard and Benchmark for Comics Text Detection and Recognition",
+    "authors": [
+      "G\u00fcrkan Soykan",
+      "Deniz Yuret",
+      "Tevfik Metin Sezgin"
+    ],
+    "summary": "This study focuses on improving the optical character recognition (OCR) data\nfor panels in the COMICS dataset, the largest dataset containing text and\nimages from comic books. To do this, we developed a pipeline for OCR processing\nand labeling of comic books and created the first text detection and\nrecognition datasets for western comics, called \"COMICS Text+: Detection\" and\n\"COMICS Text+: Recognition\". We evaluated the performance of state-of-the-art\ntext detection and recognition models on these datasets and found significant\nimprovement in word accuracy and normalized edit distance compared to the text\nin COMICS. We also created a new dataset called \"COMICS Text+\", which contains\nthe extracted text from the textboxes in the COMICS dataset. Using the improved\ntext data of COMICS Text+ in the comics processing model from resulted in\nstate-of-the-art performance on cloze-style tasks without changing the model\narchitecture. The COMICS Text+ dataset can be a valuable resource for\nresearchers working on tasks including text detection, recognition, and\nhigh-level processing of comics, such as narrative understanding, character\nrelations, and story generation. All the data and inference instructions can be\naccessed in https://github.com/gsoykan/comics_text_plus.",
+    "pdf_url": "http://arxiv.org/pdf/2212.14674v1",
+    "published": "2022-12-27"
+  },
+  "1910.09233v1": {
+    "title": "CNN based Extraction of Panels/Characters from Bengali Comic Book Page Images",
+    "authors": [
+      "Arpita Dutta",
+      "Samit Biswas"
+    ],
+    "summary": "Peoples nowadays prefer to use digital gadgets like cameras or mobile phones\nfor capturing documents. Automatic extraction of panels/characters from the\nimages of a comic document is challenging due to the wide variety of drawing\nstyles adopted by writers, beneficial for readers to read them on mobile\ndevices at any time and useful for automatic digitization. Most of the methods\nfor localization of panel/character rely on the connected component analysis or\npage background mask and are applicable only for a limited comic dataset. This\nwork proposes a panel/character localization architecture based on the features\nof YOLO and CNN for extraction of both panels and characters from comic book\nimages. The method achieved remarkable results on Bengali Comic Book Image\ndataset (BCBId) consisting of total $4130$ images, developed by us as well as\non a variety of publicly available comic datasets in other languages, i.e.\neBDtheque, Manga 109 and DCM dataset.",
+    "pdf_url": "http://arxiv.org/pdf/1910.09233v1",
+    "published": "2019-10-21"
+  },
+  "2407.03540v1": {
+    "title": "Comics Datasets Framework: Mix of Comics datasets for detection benchmarking",
+    "authors": [
+      "Emanuele Vivoli",
+      "Irene Campaioli",
+      "Mariateresa Nardoni",
+      "Niccol\u00f2 Biondi",
+      "Marco Bertini",
+      "Dimosthenis Karatzas"
+    ],
+    "summary": "Comics, as a medium, uniquely combine text and images in styles often\ndistinct from real-world visuals. For the past three decades, computational\nresearch on comics has evolved from basic object detection to more\nsophisticated tasks. However, the field faces persistent challenges such as\nsmall datasets, inconsistent annotations, inaccessible model weights, and\nresults that cannot be directly compared due to varying train/test splits and\nmetrics. To address these issues, we aim to standardize annotations across\ndatasets, introduce a variety of comic styles into the datasets, and establish\nbenchmark results with clear, replicable settings. Our proposed Comics Datasets\nFramework standardizes dataset annotations into a common format and addresses\nthe overrepresentation of manga by introducing Comics100, a curated collection\nof 100 books from the Digital Comics Museum, annotated for detection in our\nuniform format. We have benchmarked a variety of detection architectures using\nthe Comics Datasets Framework. All related code, model weights, and detailed\nevaluation processes are available at https://github.com/emanuelevivoli/cdf,\nensuring transparency and facilitating replication. This initiative is a\nsignificant advancement towards improving object detection in comics, laying\nthe groundwork for more complex computational tasks dependent on precise object\nrecognition.",
+    "pdf_url": "http://arxiv.org/pdf/2407.03540v1",
+    "published": "2024-07-03"
+  },
+  "1804.05490v1": {
+    "title": "A survey of comics research in computer science",
+    "authors": [
+      "Olivier Augereau",
+      "Motoi Iwata",
+      "Koichi Kise"
+    ],
+    "summary": "Graphical novels such as comics and mangas are well known all over the world.\nThe digital transition started to change the way people are reading comics,\nmore and more on smartphones and tablets and less and less on paper. In the\nrecent years, a wide variety of research about comics has been proposed and\nmight change the way comics are created, distributed and read in future years.\nEarly work focuses on low level document image analysis: indeed comic books are\ncomplex, they contains text, drawings, balloon, panels, onomatopoeia, etc.\nDifferent fields of computer science covered research about user interaction\nand content generation such as multimedia, artificial intelligence,\nhuman-computer interaction, etc. with different sets of values. We propose in\nthis paper to review the previous research about comics in computer science, to\nstate what have been done and to give some insights about the main outlooks.",
+    "pdf_url": "http://arxiv.org/pdf/1804.05490v1",
+    "published": "2018-04-16"
+  },
+  "1611.05118v2": {
+    "title": "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives",
+    "authors": [
+      "Mohit Iyyer",
+      "Varun Manjunatha",
+      "Anupam Guha",
+      "Yogarshi Vyas",
+      "Jordan Boyd-Graber",
+      "Hal Daum\u00e9 III",
+      "Larry Davis"
+    ],
+    "summary": "Visual narrative is often a combination of explicit information and judicious\nomissions, relying on the viewer to supply missing details. In comics, most\nmovements in time and space are hidden in the \"gutters\" between panels. To\nfollow the story, readers logically connect panels together by inferring unseen\nactions through a process called \"closure\". While computers can now describe\nwhat is explicitly depicted in natural images, in this paper we examine whether\nthey can understand the closure-driven narratives conveyed by stylized artwork\nand dialogue in comic book panels. We construct a dataset, COMICS, that\nconsists of over 1.2 million panels (120 GB) paired with automatic textbox\ntranscriptions. An in-depth analysis of COMICS demonstrates that neither text\nnor image alone can tell a comic book story, so a computer must understand both\nmodalities to keep up with the plot. We introduce three cloze-style tasks that\nask models to predict narrative and character-centric aspects of a panel given\nn preceding panels as context. Various deep neural architectures underperform\nhuman baselines on these tasks, suggesting that COMICS contains fundamental\nchallenges for both vision and language.",
+    "pdf_url": "http://arxiv.org/pdf/1611.05118v2",
+    "published": "2016-11-16"
+  }
+}
