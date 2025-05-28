@@ -1,0 +1,61 @@
+{
+  "2503.19213v1": {
+    "title": "A Survey of Large Language Model Agents for Question Answering",
+    "authors": [
+      "Murong Yue"
+    ],
+    "summary": "This paper surveys the development of large language model (LLM)-based agents\nfor question answering (QA). Traditional agents face significant limitations,\nincluding substantial data requirements and difficulty in generalizing to new\nenvironments. LLM-based agents address these challenges by leveraging LLMs as\ntheir core reasoning engine. These agents achieve superior QA results compared\nto traditional QA pipelines and naive LLM QA systems by enabling interaction\nwith external environments. We systematically review the design of LLM agents\nin the context of QA tasks, organizing our discussion across key stages:\nplanning, question understanding, information retrieval, and answer generation.\nAdditionally, this paper identifies ongoing challenges and explores future\nresearch directions to enhance the performance of LLM agent QA systems.",
+    "pdf_url": "http://arxiv.org/pdf/2503.19213v1",
+    "published": "2025-03-24"
+  },
+  "2408.12680v2": {
+    "title": "Can LLMs Understand Social Norms in Autonomous Driving Games?",
+    "authors": [
+      "Boxuan Wang",
+      "Haonan Duan",
+      "Yanhao Feng",
+      "Xu Chen",
+      "Yongjie Fu",
+      "Zhaobin Mo",
+      "Xuan Di"
+    ],
+    "summary": "Social norm is defined as a shared standard of acceptable behavior in a\nsociety. The emergence of social norms fosters coordination among agents\nwithout any hard-coded rules, which is crucial for the large-scale deployment\nof AVs in an intelligent transportation system. This paper explores the\napplication of LLMs in understanding and modeling social norms in autonomous\ndriving games. We introduce LLMs into autonomous driving games as intelligent\nagents who make decisions according to text prompts. These agents are referred\nto as LLM-based agents. Our framework involves LLM-based agents playing Markov\ngames in a multi-agent system (MAS), allowing us to investigate the emergence\nof social norms among individual agents. We aim to identify social norms by\ndesigning prompts and utilizing LLMs on textual information related to the\nenvironment setup and the observations of LLM-based agents. Using the OpenAI\nChat API powered by GPT-4.0, we conduct experiments to simulate interactions\nand evaluate the performance of LLM-based agents in two driving scenarios:\nunsignalized intersection and highway platoon. The results show that LLM-based\nagents can handle dynamically changing environments in Markov games, and social\nnorms evolve among LLM-based agents in both scenarios. In the intersection\ngame, LLM-based agents tend to adopt a conservative driving policy when facing\na potential car crash. The advantage of LLM-based agents in games lies in their\nstrong operability and analyzability, which facilitate experimental design.",
+    "pdf_url": "http://arxiv.org/pdf/2408.12680v2",
+    "published": "2024-08-22"
+  },
+  "2410.13919v2": {
+    "title": "LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild",
+    "authors": [
+      "Reworr",
+      "Dmitrii Volkov"
+    ],
+    "summary": "Attacks powered by Large Language Model (LLM) agents represent a growing\nthreat to modern cybersecurity. To address this concern, we present LLM\nHoneypot, a system designed to monitor autonomous AI hacking agents. By\naugmenting a standard SSH honeypot with prompt injection and time-based\nanalysis techniques, our framework aims to distinguish LLM agents among all\nattackers. Over a trial deployment of about three months in a public\nenvironment, we collected 8,130,731 hacking attempts and 8 potential AI agents.\nOur work demonstrates the emergence of AI-driven threats and their current\nlevel of usage, serving as an early warning of malicious LLM agents in the\nwild.",
+    "pdf_url": "http://arxiv.org/pdf/2410.13919v2",
+    "published": "2024-10-17"
+  },
+  "2505.09396v1": {
+    "title": "The Influence of Human-inspired Agentic Sophistication in LLM-driven Strategic Reasoners",
+    "authors": [
+      "Vince Trencsenyi",
+      "Agnieszka Mensfelt",
+      "Kostas Stathis"
+    ],
+    "summary": "The rapid rise of large language models (LLMs) has shifted artificial\nintelligence (AI) research toward agentic systems, motivating the use of weaker\nand more flexible notions of agency. However, this shift raises key questions\nabout the extent to which LLM-based agents replicate human strategic reasoning,\nparticularly in game-theoretic settings. In this context, we examine the role\nof agentic sophistication in shaping artificial reasoners' performance by\nevaluating three agent designs: a simple game-theoretic model, an unstructured\nLLM-as-agent model, and an LLM integrated into a traditional agentic framework.\nUsing guessing games as a testbed, we benchmarked these agents against human\nparticipants across general reasoning patterns and individual role-based\nobjectives. Furthermore, we introduced obfuscated game scenarios to assess\nagents' ability to generalise beyond training distributions. Our analysis,\ncovering over 2000 reasoning samples across 25 agent configurations, shows that\nhuman-inspired cognitive structures can enhance LLM agents' alignment with\nhuman strategic behaviour. Still, the relationship between agentic design\ncomplexity and human-likeness is non-linear, highlighting a critical dependence\non underlying LLM capabilities and suggesting limits to simple architectural\naugmentation.",
+    "pdf_url": "http://arxiv.org/pdf/2505.09396v1",
+    "published": "2025-05-14"
+  },
+  "2408.02479v2": {
+    "title": "From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future",
+    "authors": [
+      "Haolin Jin",
+      "Linghan Huang",
+      "Haipeng Cai",
+      "Jun Yan",
+      "Bo Li",
+      "Huaming Chen"
+    ],
+    "summary": "With the rise of large language models (LLMs), researchers are increasingly\nexploring their applications in var ious vertical domains, such as software\nengineering. LLMs have achieved remarkable success in areas including code\ngeneration and vulnerability detection. However, they also exhibit numerous\nlimitations and shortcomings. LLM-based agents, a novel tech nology with the\npotential for Artificial General Intelligence (AGI), combine LLMs as the core\nfor decision-making and action-taking, addressing some of the inherent\nlimitations of LLMs such as lack of autonomy and self-improvement. Despite\nnumerous studies and surveys exploring the possibility of using LLMs in\nsoftware engineering, it lacks a clear distinction between LLMs and LLM based\nagents. It is still in its early stage for a unified standard and benchmarking\nto qualify an LLM solution as an LLM-based agent in its domain. In this survey,\nwe broadly investigate the current practice and solutions for LLMs and\nLLM-based agents for software engineering. In particular we summarise six key\ntopics: requirement engineering, code generation, autonomous decision-making,\nsoftware design, test generation, and software maintenance. We review and\ndifferentiate the work of LLMs and LLM-based agents from these six topics,\nexamining their differences and similarities in tasks, benchmarks, and\nevaluation metrics. Finally, we discuss the models and benchmarks used,\nproviding a comprehensive analysis of their applications and effectiveness in\nsoftware engineering. We anticipate this work will shed some lights on pushing\nthe boundaries of LLM-based agents in software engineering for future research.",
+    "pdf_url": "http://arxiv.org/pdf/2408.02479v2",
+    "published": "2024-08-05"
+  }
+}
