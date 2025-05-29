@@ -1,0 +1,60 @@
+{
+  "2406.10300v1": {
+    "title": "Large Language Models as Software Components: A Taxonomy for LLM-Integrated Applications",
+    "authors": [
+      "Irene Weber"
+    ],
+    "summary": "Large Language Models (LLMs) have become widely adopted recently. Research\nexplores their use both as autonomous agents and as tools for software\nengineering. LLM-integrated applications, on the other hand, are software\nsystems that leverage an LLM to perform tasks that would otherwise be\nimpossible or require significant coding effort. While LLM-integrated\napplication engineering is emerging as new discipline, its terminology,\nconcepts and methods need to be established. This study provides a taxonomy for\nLLM-integrated applications, offering a framework for analyzing and describing\nthese systems. It also demonstrates various ways to utilize LLMs in\napplications, as well as options for implementing such integrations.\n  Following established methods, we analyze a sample of recent LLM-integrated\napplications to identify relevant dimensions. We evaluate the taxonomy by\napplying it to additional cases. This review shows that applications integrate\nLLMs in numerous ways for various purposes. Frequently, they comprise multiple\nLLM integrations, which we term ``LLM components''. To gain a clear\nunderstanding of an application's architecture, we examine each LLM component\nseparately. We identify thirteen dimensions along which to characterize an LLM\ncomponent, including the LLM skills leveraged, the format of the output, and\nmore. LLM-integrated applications are described as combinations of their LLM\ncomponents. We suggest a concise representation using feature vectors for\nvisualization.\n  The taxonomy is effective for describing LLM-integrated applications. It can\ncontribute to theory building in the nascent field of LLM-integrated\napplication engineering and aid in developing such systems. Researchers and\npractitioners explore numerous creative ways to leverage LLMs in applications.\nThough challenges persist, integrating LLMs may revolutionize the way software\nsystems are built.",
+    "pdf_url": "http://arxiv.org/pdf/2406.10300v1",
+    "published": "2024-06-13"
+  },
+  "2310.19740v2": {
+    "title": "Exploring the Reliability of Large Language Models as Customized Evaluators for Diverse NLP Tasks",
+    "authors": [
+      "Qintong Li",
+      "Leyang Cui",
+      "Lingpeng Kong",
+      "Wei Bi"
+    ],
+    "summary": "Previous work adopts large language models (LLMs) as evaluators to evaluate\nnatural language process (NLP) tasks. However, certain shortcomings, e.g.,\nfairness, scope, and accuracy, persist for current LLM evaluators. To analyze\nwhether LLMs can serve as reliable alternatives to humans, we examine the\nfine-grained alignment between LLM evaluators and human annotators,\nparticularly in understanding the target evaluation tasks and conducting\nevaluations that meet diverse criteria. This paper explores both conventional\ntasks (e.g., story generation) and alignment tasks (e.g., math reasoning), each\nwith different evaluation criteria. Our analysis shows that 1) LLM evaluators\ncan generate unnecessary criteria or omit crucial criteria, resulting in a\nslight deviation from the experts. 2) LLM evaluators excel in general criteria,\nsuch as fluency, but face challenges with complex criteria, such as numerical\nreasoning. We also find that LLM-pre-drafting before human evaluation can help\nreduce the impact of human subjectivity and minimize annotation outliers in\npure human evaluation, leading to more objective evaluation.",
+    "pdf_url": "http://arxiv.org/pdf/2310.19740v2",
+    "published": "2023-10-30"
+  },
+  "2501.19361v1": {
+    "title": "We're Different, We're the Same: Creative Homogeneity Across LLMs",
+    "authors": [
+      "Emily Wenger",
+      "Yoed Kenett"
+    ],
+    "summary": "Numerous powerful large language models (LLMs) are now available for use as\nwriting support tools, idea generators, and beyond. Although these LLMs are\nmarketed as helpful creative assistants, several works have shown that using an\nLLM as a creative partner results in a narrower set of creative outputs.\nHowever, these studies only consider the effects of interacting with a single\nLLM, begging the question of whether such narrowed creativity stems from using\na particular LLM -- which arguably has a limited range of outputs -- or from\nusing LLMs in general as creative assistants. To study this question, we elicit\ncreative responses from humans and a broad set of LLMs using standardized\ncreativity tests and compare the population-level diversity of responses. We\nfind that LLM responses are much more similar to other LLM responses than human\nresponses are to each other, even after controlling for response structure and\nother key variables. This finding of significant homogeneity in creative\noutputs across the LLMs we evaluate adds a new dimension to the ongoing\nconversation about creativity and LLMs. If today's LLMs behave similarly, using\nthem as a creative partners -- regardless of the model used -- may drive all\nusers towards a limited set of \"creative\" outputs.",
+    "pdf_url": "http://arxiv.org/pdf/2501.19361v1",
+    "published": "2025-01-31"
+  },
+  "2408.02479v2": {
+    "title": "From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future",
+    "authors": [
+      "Haolin Jin",
+      "Linghan Huang",
+      "Haipeng Cai",
+      "Jun Yan",
+      "Bo Li",
+      "Huaming Chen"
+    ],
+    "summary": "With the rise of large language models (LLMs), researchers are increasingly\nexploring their applications in var ious vertical domains, such as software\nengineering. LLMs have achieved remarkable success in areas including code\ngeneration and vulnerability detection. However, they also exhibit numerous\nlimitations and shortcomings. LLM-based agents, a novel tech nology with the\npotential for Artificial General Intelligence (AGI), combine LLMs as the core\nfor decision-making and action-taking, addressing some of the inherent\nlimitations of LLMs such as lack of autonomy and self-improvement. Despite\nnumerous studies and surveys exploring the possibility of using LLMs in\nsoftware engineering, it lacks a clear distinction between LLMs and LLM based\nagents. It is still in its early stage for a unified standard and benchmarking\nto qualify an LLM solution as an LLM-based agent in its domain. In this survey,\nwe broadly investigate the current practice and solutions for LLMs and\nLLM-based agents for software engineering. In particular we summarise six key\ntopics: requirement engineering, code generation, autonomous decision-making,\nsoftware design, test generation, and software maintenance. We review and\ndifferentiate the work of LLMs and LLM-based agents from these six topics,\nexamining their differences and similarities in tasks, benchmarks, and\nevaluation metrics. Finally, we discuss the models and benchmarks used,\nproviding a comprehensive analysis of their applications and effectiveness in\nsoftware engineering. We anticipate this work will shed some lights on pushing\nthe boundaries of LLM-based agents in software engineering for future research.",
+    "pdf_url": "http://arxiv.org/pdf/2408.02479v2",
+    "published": "2024-08-05"
+  },
+  "2404.01667v1": {
+    "title": "METAL: Towards Multilingual Meta-Evaluation",
+    "authors": [
+      "Rishav Hada",
+      "Varun Gumma",
+      "Mohamed Ahmed",
+      "Kalika Bali",
+      "Sunayana Sitaram"
+    ],
+    "summary": "With the rising human-like precision of Large Language Models (LLMs) in\nnumerous tasks, their utilization in a variety of real-world applications is\nbecoming more prevalent. Several studies have shown that LLMs excel on many\nstandard NLP benchmarks. However, it is challenging to evaluate LLMs due to\ntest dataset contamination and the limitations of traditional metrics. Since\nhuman evaluations are difficult to collect, there is a growing interest in the\ncommunity to use LLMs themselves as reference-free evaluators for subjective\nmetrics. However, past work has shown that LLM-based evaluators can exhibit\nbias and have poor alignment with human judgments. In this study, we propose a\nframework for an end-to-end assessment of LLMs as evaluators in multilingual\nscenarios. We create a carefully curated dataset, covering 10 languages\ncontaining native speaker judgments for the task of summarization. This dataset\nis created specifically to evaluate LLM-based evaluators, which we refer to as\nmeta-evaluation (METAL). We compare the performance of LLM-based evaluators\ncreated using GPT-3.5-Turbo, GPT-4, and PaLM2. Our results indicate that\nLLM-based evaluators based on GPT-4 perform the best across languages, while\nGPT-3.5-Turbo performs poorly. Additionally, we perform an analysis of the\nreasoning provided by LLM-based evaluators and find that it often does not\nmatch the reasoning provided by human judges.",
+    "pdf_url": "http://arxiv.org/pdf/2404.01667v1",
+    "published": "2024-04-02"
+  }
+}

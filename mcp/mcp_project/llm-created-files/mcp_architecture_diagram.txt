@@ -1,0 +1,65 @@
+```
+                                  MODEL CONTEXT PROTOCOL (MCP)
+                                  ARCHITECTURE DIAGRAM
++------------------------------------------------------------------------------------+
+|                                                                                    |
+|  +------------------+         JSON-RPC 2.0 Messages          +------------------+  |
+|  |                  |<----------------------------------------|                  |  |
+|  |      CLIENT      |                                         |      SERVER      |  |
+|  | (LLM Application)|---------------------------------------->| (Context Provider)|  |
+|  |                  |         Transport Layer                 |                  |  |
+|  +------------------+                                         +------------------+  |
+|          |                                                            |             |
+|          |                                                            |             |
+|          v                                                            v             |
+|  +------------------+                                         +------------------+  |
+|  |  Protocol Layer  |                                         |  Protocol Layer  |  |
+|  +------------------+                                         +------------------+  |
+|  | - Request/Response|                                        | - Request Handlers|  |
+|  | - Notifications   |                                        | - Notification    |  |
+|  | - Error Handling  |                                        |   Handlers        |  |
+|  +------------------+                                         +------------------+  |
+|                                                                                    |
++------------------------------------------------------------------------------------+
+
+             TRANSPORT MECHANISMS                       MESSAGE TYPES
+             +------------------+                      +------------------+
+             | 1. Stdio         |                      | 1. Requests      |
+             | 2. HTTP with SSE |                      | 2. Results       |
+             |                  |                      | 3. Errors        |
+             |                  |                      | 4. Notifications |
+             +------------------+                      +------------------+
+
+CONNECTION LIFECYCLE
++------------------------------------------------------+
+| 1. INITIALIZATION                                    |
+|    +----------------+           +----------------+   |
+|    | Client         |           | Server         |   |
+|    | initialize     |---------->|                |   |
+|    |                |           |                |   |
+|    |                |<----------|  capabilities  |   |
+|    |                |           |                |   |
+|    | initialized    |---------->|                |   |
+|    +----------------+           +----------------+   |
+|                                                      |
+| 2. MESSAGE EXCHANGE                                  |
+|    +---------------------------------------+         |
+|    | Request/Response & Notifications      |         |
+|    +---------------------------------------+         |
+|                                                      |
+| 3. TERMINATION                                       |
+|    +---------------------------------------+         |
+|    | Clean shutdown or disconnection       |         |
+|    +---------------------------------------+         |
++------------------------------------------------------+
+
+ERROR HANDLING                           BEST PRACTICES
++------------------------+              +------------------------+
+| Standard Error Codes:  |              | 1. Transport Selection |
+| - ParseError           |              | 2. Message Handling    |
+| - InvalidRequest       |              | 3. Security            |
+| - MethodNotFound       |              | 4. Debugging           |
+| - InvalidParams        |              | 5. Monitoring          |
+| - InternalError        |              +------------------------+
++------------------------+
+```

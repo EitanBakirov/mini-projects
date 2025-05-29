@@ -1,0 +1,32 @@
+# Research on Reinforcement Fine-Tuning of Large Language Models
+
+## Overview
+After exploring the deeplearning.ai website, I discovered they offer a course on "Reinforcement Fine-Tuning LLMs with GRPO" (Generalized Reinforcement Policy Optimization). This led me to search for recent research papers on reinforcement learning approaches for fine-tuning large language models.
+
+## Paper 1: Bidirectional Negative Feedback for LLM Alignment
+**Title**: "As Simple as Fine-tuning: LLM Alignment via Bidirectional Negative Feedback Loss"
+**Authors**: Xin Mao, Feng-Lin Li, Huimin Xu, Wei Zhang, Wang Chen, Anh Tuan Luu
+**Published**: October 7, 2024
+
+This paper proposes a novel approach to LLM alignment called Bidirectional Negative Feedback (BNF). The researchers argue that existing methods like Direct Preference Optimization (DPO) have limitations, particularly instability and sensitivity to hyperparameters when working with mathematical datasets. Their proposed BNF loss simplifies the alignment process to be as straightforward as supervised fine-tuning, without requiring pairwise preference data or additional hyperparameters.
+
+Key findings:
+- BNF achieves comparable performance to state-of-the-art methods on QA benchmarks
+- It maintains better reasoning capabilities compared to other preference optimization methods
+- The approach establishes a more stable feedback mechanism during optimization
+
+## Paper 2: Reinforcement Learning for Audio Question Answering
+**Title**: "Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering"
+**Authors**: Gang Li, Jizhong Liu, Heinrich Dinkel, Yadong Niu, Junbo Zhang, Jian Luan
+**Published**: March 14, 2025
+
+This research specifically applies Group Relative Policy Optimization (GRPO) to audio language models. While reinforcement learning has been successfully applied to text and visual multimodal tasks, the audio modality has been less explored. The researchers applied GRPO to Qwen2-Audio-7B-Instruct and achieved state-of-the-art results on the MMAU Test-mini benchmark.
+
+Key findings:
+- GRPO can be effectively applied to large audio language models with as few as 8.2B parameters
+- With only 38,000 post-training samples, reinforcement learning significantly outperformed supervised fine-tuning
+- The explicit reasoning process didn't show significant benefits for audio question answering tasks
+- Audio language models still lag behind human auditory-language reasoning capabilities
+
+## Conclusion
+Reinforcement learning approaches for fine-tuning LLMs show significant promise across different modalities. The GRPO technique highlighted in deeplearning.ai's course appears to be an important advancement in the field, with applications extending beyond text to audio understanding. Both papers demonstrate that reinforcement learning methods can outperform traditional supervised fine-tuning approaches, especially when reasoning capabilities are important.

@@ -1,0 +1,30 @@
+{
+  "2410.04834v2": {
+    "title": "As Simple as Fine-tuning: LLM Alignment via Bidirectional Negative Feedback Loss",
+    "authors": [
+      "Xin Mao",
+      "Feng-Lin Li",
+      "Huimin Xu",
+      "Wei Zhang",
+      "Wang Chen",
+      "Anh Tuan Luu"
+    ],
+    "summary": "Direct Preference Optimization (DPO) has emerged as a more computationally\nefficient alternative to Reinforcement Learning from Human Feedback (RLHF) with\nProximal Policy Optimization (PPO), eliminating the need for reward models and\nonline sampling. Despite these benefits, DPO and its variants remain sensitive\nto hyper-parameters and prone to instability, particularly on mathematical\ndatasets. We argue that these issues arise from the unidirectional\nlikelihood-derivative negative feedback inherent in the log-likelihood loss\nfunction. To address this, we propose a novel LLM alignment loss that\nestablishes a stable Bidirectional Negative Feedback (BNF) during optimization.\nOur proposed BNF loss eliminates the need for pairwise contrastive losses and\ndoes not require any extra tunable hyper-parameters or pairwise preference\ndata, streamlining the alignment pipeline to be as simple as supervised\nfine-tuning. We conduct extensive experiments across two challenging QA\nbenchmarks and four reasoning benchmarks. The experimental results show that\nBNF achieves comparable performance to the best methods on QA benchmarks, while\nits performance decrease on the four reasoning benchmarks is significantly\nlower compared to the best methods, thus striking a better balance between\nvalue alignment and reasoning ability. In addition, we further validate the\nperformance of BNF on non-pairwise datasets, and conduct in-depth analysis of\nlog-likelihood and logit shifts across different preference optimization\nmethods.",
+    "pdf_url": "http://arxiv.org/pdf/2410.04834v2",
+    "published": "2024-10-07"
+  },
+  "2503.11197v4": {
+    "title": "Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering",
+    "authors": [
+      "Gang Li",
+      "Jizhong Liu",
+      "Heinrich Dinkel",
+      "Yadong Niu",
+      "Junbo Zhang",
+      "Jian Luan"
+    ],
+    "summary": "Recently, reinforcement learning (RL) has been shown to greatly enhance the\nreasoning capabilities of large language models (LLMs), and RL-based approaches\nhave been progressively applied to visual multimodal tasks. However, the audio\nmodality has largely been overlooked in these developments. Thus, we conduct a\nseries of RL explorations in audio understanding and reasoning, specifically\nfocusing on the audio question answering (AQA) task. We leverage the group\nrelative policy optimization (GRPO) algorithm to Qwen2-Audio-7B-Instruct, and\nour experiments demonstrated state-of-the-art performance on the MMAU Test-mini\nbenchmark, achieving an accuracy rate of 64.5%. The main findings in this\ntechnical report are as follows: 1) The GRPO algorithm can be effectively\napplied to large audio language models (LALMs), even when the model has only\n8.2B parameters; 2) With only 38k post-training samples, RL significantly\noutperforms supervised fine-tuning (SFT), indicating that RL-based approaches\ncan be effective without large datasets; 3) The explicit reasoning process has\nnot shown significant benefits for AQA tasks, and how to efficiently utilize\ndeep thinking remains an open question for further research; 4) LALMs still lag\nfar behind humans auditory-language reasoning, suggesting that the RL-based\napproaches warrant further exploration. Our project is available at\nhttps://github.com/xiaomi-research/r1-aqa and\nhttps://huggingface.co/mispeech/r1-aqa.",
+    "pdf_url": "http://arxiv.org/pdf/2503.11197v4",
+    "published": "2025-03-14"
+  }
+}
